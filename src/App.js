@@ -4,15 +4,16 @@ import axios from "axios";
 
 function App() {
   const [nasaData, setNasaData] = useState([]);
-
+  
 
 
     useEffect(() => {
       axios
         .get(
-          "https://api.nasa.gov/planetary/apod?api_key=aFOyrCyQRJGCrJdSTEO4k23Vxmtk0k0kGQdO55P9"
+          "https://api.nasa.gov/planetary/apod?api_key=aFOyrCyQRJGCrJdSTEO4k23Vxmtk0k0kGQdO55P9&date=2012-03-14"
         )
         .then(res => setNasaData(res.data))
+        .then(console.log("test", nasaData))
         .catch(error => console.log(error));
     }, []);
 
