@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should match snapchat 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="ui center aligned middle aligned grid"
+    style={
+      Object {
+        "height": "100vh",
+        "margin": "40px auto",
+        "width": "50%",
+      }
+    }
+  >
+    <div
+      className="ui justified container"
+    >
+      <div
+        className="ui huge center aligned header"
+      />
+      <img
+        className="ui huge rounded image"
+        src="undefined"
+        style={
+          Object {
+            "margin": "40px auto",
+          }
+        }
+      />
+      <div
+        className="ui divider"
+      />
+      <h3>
+        NASA explanation: 
+      </h3>
+      <div
+        className="ui divider"
+      />
+      <h4
+        style={
+          Object {
+            "margin": "40px auto",
+            "textAlign": "center",
+          }
+        }
+      >
+        Copyright: 
+      </h4>
+    </div>
+  </div>
+</div>
+`;
